@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "AirplaneBookingAPI.Controllers.PlaneBookingsController",
+    "Method": "CreateEdit",
+    "RelativePath": "api/PlaneBookings/CreateEdit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "booking",
+        "Type": "AirplaneBookingAPI.Models.PlaneBooking",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AirplaneBookingAPI.Controllers.PlaneBookingsController",
+    "Method": "Delete",
+    "RelativePath": "api/PlaneBookings/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "iD",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AirplaneBookingAPI.Controllers.PlaneBookingsController",
+    "Method": "Get",
+    "RelativePath": "api/PlaneBookings/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "iD",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AirplaneBookingAPI.Controllers.PlaneBookingsController",
+    "Method": "GetAll",
+    "RelativePath": "api/PlaneBookings/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
